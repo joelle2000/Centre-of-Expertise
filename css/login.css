@@ -1,0 +1,39 @@
+fieldset{
+	background-color: #F2F2F2;
+	width: 550px;
+	height: 170px;
+	border: none;
+	margin: auto;
+}
+legend{
+	text-align: center;
+	font-family: century gothic;
+	font-size: 21pt;
+}
+form>input, form>label{
+	text-align: center;
+}
+form>fieldset>input{
+	width: 300px;
+	margin-top: 10px;
+}
+form>h1{
+	text-align: center;
+}
+label{
+	margin-top: 10px;
+}
+#loginknop,#registreerknop{
+	float: right;
+	margin: 10px;
+}
+#fieldsetlogin{
+	height: 150px;
+}
+#fieldsetregistreer{
+	height: 300px;
+}
+.contentachtergrond{
+	height: 900px;
+}/*de contentachtergrond gaat niet door tot na de footer omdat die niet op deze pagina aanwezig is daarom 
+heeft .contentachtergrond hier een hoogte*/

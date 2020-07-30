@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/contact.css">
+		<link rel="stylesheet" type="text/css" href="css/achtergrond.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/knoppen.css">
+		<link rel="stylesheet" type="text/css" href="css/typografie.css">
+		<link rel="stylesheet" type="text/css" href="css/images.css">
+		<!--er is gebruik gemaakt van meerdere stylesheets, zodat vaste onderdelen van de website in geordend staan in verschillende stylesheets ook heeft iedere pagina nog een eigen stylesheet voor als er onderdelen afwijken van de standaard flow-->
+		<title>Contact</title> <!--ik heb alle webpagina's vernoemd aar de tekst die op de knop staat waar de gebruiker op moet klikken als zij naar die pagina willen-->
+	</head>
+	<body>
+		<div class="contentachtergrond"> <!--de class contentachtergrond is toegevoegd zodat de achtergrond waar binnen alle informatie zich bevind wit is-->
+			<header> <!--in de header staat links boven de knop "login" waar als je erop klikt je naar de loginpagina wordt gestuurd, midden bovenin staat de escape hatch "Centre of Expertise" in dikgedrukte h1 tekst, rechts bovenin staat een zoekbalkje zodat gebruikers over de gehele website kunnen zoeken en midden onderin staat de menubalk-->
+				<form>
+					<button id="login">Log in</button> <!-- het is de bedoeling dat als de gebruiker op de knop klikt hij naar de login pagina wordt verwezen waar hij zich kan inloggen of registreren de knop werkt nu alleen nog niet en dat is wel de bedoeling-->
+					<button id="escapehatch">Centre of Expertise</button>
+					<label for="zoekbalk"></label> <!--voor de zoekbalk staat geen tekst het is de bedoeling dat er rechts in de zoekbalk een icoontje van een vergrootglas staat-->
+					<input type="text" name="zoekbalk" id="zoekbalk" placeholder="zoeken">
+				</form>
+				 <nav> <!--het is de bedoeling dat de knoppen in de nav wat ruimte om zich heen krijgen net zoals in de interactieve mockup zie:"uiteindelijke website visueel uitegewerkt met een grotere focus op mijn doelgroep"-->
+				 	<a href="index.html" class="menubalk">Thuis</a>
+				 	<a href="nieuws.html" class="menubalk">Nieuws</a>
+				 	<a href="kenniskringleden.html" class="menubalk">Kenniskringleden</a>
+				 	<a href="publicaties.html" class="menubalk">Publicaties</a>
+				 	<a href="contact.html" class="menubalk">Contact</a>
+				 </nav>
+			</header>
+			<main> <!--op deze pagina kan je alle kennis kringleden per onderzoeksplatform waar zij bijwerken vinden. het is d bedoeling dat alle list items in een grid getoond worden en evenveel ruimte hebben ook staat er bij sommige een button met class="linkedin" hier moet dan een knop komen met het linkedin logo zie images/icons/linkedin_normal.jpg en er zijn ook afbeeldingen voor als de gebruiker met de mijs over de knop hovered of als de knop active is zi dan images/icons/linkedin_hover.jpg en images/icons/linkedin_active.jpg-->
+				<aside> <!-- in deze aside staan snel een paar contactgegevens van alle lectoraten en van de organisatie opgenoemd. ook staan er bij sommig lectoraten een button met class="linkedin" hier moet dan een knop komen met het linkedin logo zie images/icons/linkedin_normal.jpg en er zijn ook afbeeldingen voor als de gebruiker met de mijs over de knop hovered of als de knop active is zi dan images/icons/linkedin_hover.jpg en images/icons/linkedin_active.jpg-->-->
+					<h1>Kenniskringleden</h1>
+					<ul>
+						<li>
+							<h2>Sanne de Vries</h2>
+							<p>Leidinggevende lectoraat <br/> s.i.devries@hhs.nl <br/> tel:06 - 46 87 68 52</p>
+							<form>
+								<button  class="linkedin"></button>
+							</form>
+						</li>
+						<li>
+							<h2>Son Burgers</h2>
+							<p>Voorzitter <br/> S.L.F.Burgers-Geerinckx@hhs.nl</p>
+						</li>
+						<li>
+							<h2>Chris Wallner</h2>
+							<p>Programmacoördinator <br/> c.wallner@hhs.nl</p>
+						</li>
+						<li>
+							<h2>Helen Bintevinos</h2>
+							<p>Ondersteuning <br/> h.bintevinos@hhs.nl</p>
+						</li>
+						<li>
+							<h2>Deirde Beneken</h2>
+							<p>Lectoraat <br/> d.m.beneken@hhs.nl</p>
+						</li>
+						<li>
+							<h2>Joost van der Sijp</h2>
+							<p>Lectoraat <br/> j.r.m.vandersijp@hhs.nl <br/> tel:06 - 53 68 58 50</p>
+							<form>
+								<button  class="linkedin"></button>
+							</form>
+						</li>
+						<li>
+							<h2>Arend de Kloet</h2>
+							<p>Lectoraat <br/> a.j.dekloet@hhs.nl <br/> tel:070 - 445 74 16</p>
+							<form>
+								<button  class="linkedin"></button>
+							</form>
+						</li>
+						<li>
+							<h2>Erwin de Vlugt</h2>
+							<p>Lectoraat <br/> e.devlugt@hhs.nl <br/> tel:+31 (0) 15 - 260 63 89</p>
+							<form>
+								<button class="linkedin"></button>
+							</form>
+						</li>
+					</ul>
+					<a href="#">Lees meer</a> <!--niet alle lectoraten paste in de lijst dus staat de link er om meer lectoraten contactgegevens te laden gebruik hiervoor de mockup:"uiteindelijke website visueel uitgewerkt met een grotere focus op mijn doelgroep" ook is het de bedoelingd dat de link midden onder de contactgegevens van de lectoraten moet komen te staan-->
+				</aside>
+				<article id="introtekstcontactpagina">
+					<h1>Centre of Expertise</h1>
+					<p>Het Centre of Expertise is een kenniscentrum binnen De Haagse Hogeschool. Binnen dit kenniscentrum werken lectoraten, maar ook docenten en studenten samen aan verschillende onderzoeken. De contactgegevens van de kenniskringleden kunt u hier rechts zien. De contactgegevens van De Haagse Hogeschool, waarin het Centre of Expertise is gevestigd, staan hieronder.</p>
+				</article>
+				<section> <!--contact gegevens van het center of expertise het is de bedoeling dat de voor ieder list item het bijpassende icoontje komt te staan, geen nummering, zie hier voor images/icons/...-->
+					<ul>
+						<li>Johanna Westerdijkplein 75 <br/> 2521 EN Den Haag</li>
+						<li>Postbus 13336 <br/> 2501 EH The Hague</li>
+						<li>Stamkartplein 40 <br/> 2521 EP The Hague</li>
+						<li>+31 (0)70 - 445 88 88</li>
+						<li>+31 (0)70 - 445 88 25</li>
+					</ul>
+				</section> <!--sfeer foto's van het centre of expertise. het is de bedoeling dat de foto's in een grid vallen zoals ze nu doen-->
+				<section id="fotoscontactpagina">
+					<img src="images/voorkanthhs.jpg" alt="de voorkant van De Haagse Hogeschool" id="voorkanthhs">
+					<img src="images/vergadertafel.jpg" alt="boven aanzicht van een vergadertafel" id="vergadertafel">
+					<img src="images/groepblijemensenachterlaptop.jpg" alt="een groep blije mensen die achter een laptop zitten en staan" id="groepblijemensenachterlaptop">
+					<img src="images/zijkanthhs.jpg" alt="het zij aanzicht van De Haagse Hogeschool" id="zijkanthhs">
+					<img src="images/groepblijemensenzittendopstraat.jpg" alt="drie blije mensen die op straat zitten" id="groepblijmensenzittendopstraat">
+				</section>
+			</main>
+			<footer>
+				<article id="disclaimer"> <!--als de gebruiker hier op klikt wordt hij verwezen naar de disclaimer pagina -->
+					<h1>Disclaimer</h1>
+					<p>De informatie op de websites van De Haagse Hogeschool is met de grootst mogelijke zorg samengesteld. Ook is getracht de informatie actueel te houden. Desondanks kunnen aan de informatie geen rechten worden ontleend.</p>
+				</article>
+				<article id="partnerlinkjes"> <!--hier staan linkjes naar de websites van de partners van het centre of expertise-->
+					<h1>Partners</h1>
+					<p>
+						<a href="https://www.ggdhaaglanden.nl/home.htm">GGD Haaglanden</a>
+						<br/>
+						<a href="https://www.thehagueuniversity.com/">De Haagse Hogeschool</a>
+						<br/>
+						<a href="http://www.regieorgaan-sia.nl/">Regieorgaan SIA</a>
+						<br/>
+						<a href="http://ir.geron.com/investor-overview">Geron</a>
+						<br/>
+						<a href="https://www.ypsilon.org/">Ypsilon</a>
+					</p>
+				</article>
+				<article id="contactgegevens"> <!--hier staan een paar contact gegevens van het centre of expertise-->
+					<h1>Contact</h1>
+					<p>Johanna Westerdijkplein 75<br/>
+					2521 EN Den Haag<br/>
+					+31 (0)70 - 445 88 88</p>
+				</article>
+				<section>
+					<form id="socialmediafeedfooter"> <!--hier staan de knoppen voor sociale media de knoppen staan rechts onderin de footer onder de contact gegevens de afbeeldingen voor de knoppen staan in images/icons/...-->
+						<button id="linkedin"></button>
+						<button id="facebook"></button>
+						<button id="instagram"></button>
+						<button id="twitter"></button>
+						<button id="youtube"></button>
+						<button id="pinterest"></button>
+					</form>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>

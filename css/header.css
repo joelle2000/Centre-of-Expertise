@@ -1,0 +1,32 @@
+/*header afmaken de escape hatch, menubalk en zoekbalk moeten nog op de juiste plek komen te staan zie hiervoor de 
+header in de interactieve mockup:"uiteindelijke website visueel uitgewerkt met een grotere focus op mijn doelgroep"*/
+#login{
+	display: inline-block;
+	margin-top:20px;
+	margin-left:50px;
+	width: 100px;
+	height: 35px;
+}
+.menbalk{
+	width: 200px;
+	height: 35px;
+	margin-top: 2000px;
+	margin-left: 155px;
+	margin-bottom: 0px;
+}/*volgens mij is de css code van .menubalk niet meer nodig want volgens mij verhelpt de css code van nav het 
+probleem om de menubalk te centreren*/
+#escapehatch{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Century Gothic;
+	font-size: 30pt;
+	font-weight: bold;
+	width: 400px;
+	height: 45px;
+	display: inline-block;
+	margin: 200px, 120px, 20px, 50px;
+}/*moet in het midden boven in staan boven de nav*/
+nav{
+	text-align: center;
+	clear: both;
+}/*voor de opmaak van de knoppen zie knoppen.css*/

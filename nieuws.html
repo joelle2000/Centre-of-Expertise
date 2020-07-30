@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/nieuws.css">
+		<link rel="stylesheet" type="text/css" href="css/achtergrond.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/knoppen.css">
+		<link rel="stylesheet" type="text/css" href="css/typografie.css">
+		<!--er is gebruik gemaakt van meerdere stylesheets, zodat vaste onderdelen van de website in geordend staan in verschillende stylesheets ook heeft iedere pagina nog een eigen stylesheet voor als er onderdelen afwijken van de standaard flow-->
+		<title>Nieuws</title> <!--ik heb alle webpagina's vernoemd aar de tekst die op de knop staat waar de gebruiker op moet klikken als zij naar die pagina willen-->
+	</head>
+	<body>
+		<div class="contentachtergrond"> <!--de class contentachtergrond is toegevoegd zodat de achtergrond waar binnen alle informatie zich bevind wit is-->
+			<header> <!--in de header staat links boven de knop "login" waar als je erop klikt je naar de loginpagina wordt gestuurd, midden bovenin staat de escape hatch "Centre of Expertise" in dikgedrukte h1 tekst, rechts bovenin staat een zoekbalkje zodat gebruikers over de gehele website kunnen zoeken en midden onderin staat de menubalk-->
+				<form>
+					<button id="login">Log in</button> <!-- het is de bedoeling dat als de gebruiker op de knop klikt hij naar de login pagina wordt verwezen waar hij zich kan inloggen of registreren de knop werkt nu alleen nog niet en dat is wel de bedoeling-->
+					<button id="escapehatch">Centre of Expertise</button>
+					<label for="zoekbalk"></label> <!--voor de zoekbalk staat geen tekst het is de bedoeling dat er rechts in de zoekbalk een icoontje van een vergrootglas staat-->
+					<input type="text" name="zoekbalk" id="zoekbalk" placeholder="zoeken">
+				</form>
+				 <nav><!--het is de bedoeling dat de knoppen in de nav wat ruimte om zich heen krijgen net zoals in de interactieve mockup zie:"uiteindelijke website visueel uitegewerkt met een grotere focus op mijn doelgroep"-->
+				 	<a href="index.html" class="menubalk">Thuis</a>
+				 	<a href="nieuws.html" class="menubalk">Nieuws</a>
+				 	<a href="kenniskringleden.html" class="menubalk">Kenniskringleden</a>
+				 	<a href="publicaties.html" class="menubalk">Publicaties</a>
+				 	<a href="contact.html" class="menubalk">Contact</a>
+				 </nav>
+			</header>
+			<main>
+				<article id="introductietekstnieuwspagina">
+					<h1>Nieuws</h1> <!-- een korte introductie van wat de nieuwspagina is en wat je er kan doen-->
+					<p>Er gebeurd veel in het Centre of Expertise, daarom kunt u hier het laatste nieuws vinden van onderzoeksadministraties en nieuwste publicaties tot samenwerking met partners en afstudeerplekken voor studenten en nog veel meer. <br/> Zelf kunt u ook nieuws toevoegen dat natuurlijk wel eerst langs de systeembeheerder gaat. </p>
+				</article>
+				<form>
+					<button id="nieuwstoevoegen">Nieuws toevoegen </button> <!--deze knop stuur de gebruiker door naar een andere pagina waar hij zelf een nieuws artikel kan toevoegen-->
+				</form>
+				<section id="nieuwszoekenopdag"> <!--dit geeft de gebruiker toegang tot het zoeken naar nieuws op dag. 
+					de dagen staan gesordeerd van nieuw naar oud. en er staat een pijltje naast waar de gebruiker op kan klikken om zo verder terug te gaan naar voorgaande dagen. het is de bedoeling dat dit uiteindelijk gaat werken als een carousel-->
+					<h1>Zoek op datum</h1>
+					<ol>
+						<li>13 feb</li>
+						<li>12 feb</li>
+						<li>11 feb</li>
+						<li>10 feb</li>
+						<li>9 feb</li>
+						<li>8 feb</li>
+					</ol>
+					<form>
+						<button id="pijltjenaarrechts"></button><!--hier komt uiteindelijk het pijltje te staan dat als knop dient zie images/icons/...-->
+					</form>
+				</section>
+				<section>
+					<h1>Vandaag</h1><!--nieuws dat vandaag is toegevoegd ook staat deze nieuws sectie rechts boven in op de pagina zodat de gebruiker niet hoeft te scrollen om het nieuws van vandaag te zien ook kan er op de artikels geklikt worden om zo naar het de pagina met het nieuws artikel te gaan hij staat rechts van de (id=)"introductietekstnieuwspagina" -->
+					<article>
+						<h2>Cybercriminaliteit leeft niet onder retailers</h2>
+						<p>Mkb-retailers in de regio Den Haag zijn nauwelijks weerbaar tegen cybercriminaliteit, blijkt uit onderzoek van het lectoraat Cybersecurity in het mkb. Zij zien het niet als een belangrijk bedrijfsrisico. Hoe krijgen we het midden- en kleinbedrijf zover dat zij zich beter beschermen tegen cybercriminaliteit?</p>
+					</article>
+					<article>
+						<h2>Debat over kleding als wegwerpartikel</h2>
+						<p>Kleding als wegwerpartikel, wordt de wereld daar blij van? Studenten Commerciële Economie gaan op 5 april in de Speakers Corner in debat over de effecten van ‘fast fashion’. In de Innovation Playground is er een fashion swap waar studenten kleding kunnen ruilen.</p>
+					</article>
+					<article>
+						<h2>Cooking around the world</h2>
+						<p>In deze serie deelt een aantal oud-studenten hun favoriete gerecht met ons. Onze school is namelijk een smeltkroes van meer dan 140 nationaliteiten. In deze serie deelt een aantal oud-studenten hun favoriete gerecht met ons.</p>
+					</article>
+				</section>
+				<section class="nieuwsblok"> <!--vanaf nu hebben de nieuws sectie de class="nieuwsblok" omdat de secties dan allemaal in een grid uitkomen en de sectie met het nieuws van "Vandaag" kan dan rechts bovenin op de pagina getoond worden zodat de gebruiker dat al kan lezen zonder te hoeven scrollen-->
+					<h1>13-02-2019</h1><!--nieuws dat 13-02-2019 is toegevoegd (dit gaat zo door per nieuws sectie)-->
+					<article>
+						<h2>Help verdedigers van mensenrechten</h2>
+						<p>Het Writer’s Block festival van Amnesty International besteedt dit jaar extra aandacht aan verdedigers van mensenrechten die gevangen zitten. Tijdens het festival op 7 december in de Ovaal kun je brieven schrijven om hen vrij te krijgen.</p>
+					</article>
+					<article>
+						<h2>Minor leidt tot game-app in Play Store</h2>
+						<p>We leren kinderen al vroeg bij het oversteken eerst naar links te kijken, dan naar rechts en opnieuw naar links. Net zo vanzelfsprekend zouden we hen moeten leren veilig te participeren in de digitale wereld. Het lectoraat Cyber Security & Safety liet een groep studenten binnen de minor Usable App Development onder leiding van onderzoekers een game-app ontwikkelen.</p>
+					</article>
+				</section>
+				<section class="nieuwsblok">
+					<h1>12-02-2019</h1>
+					<article>
+						<h2>Fietsen doe je samen tijdens de HBO Fietstocht!</h2>
+						<p>Vrijdag 25 augustus 2017 hebben collegae van alle Nederlandse Hogescholen deelgenomen aan de jaarlijkse HBO Fietstocht. Dit jaar lag de vlekkeloze organisatie in handen van InHolland in Haarlem.</p>
+					</article>
+					<article>
+						<h2>Minister: ‘Open access is geen gelopen race’</h2>
+						<p>Voordat de wetenschap vanaf 2020 volledig overgaat naar open access, moeten er nog flinke hindernissen worden genomen, zegt minister Van Engelshoven. Ze rept met geen woord over de onzekere positie van jonge wetenschappers.</p>
+					</article>
+					<article>
+						<h2>Ja echt: door jouw brief komt een gewetensgevange vrij</h2>
+						<p>Burgeroorlog, hongersnood, vluchtelingen; natuurlijk wordt je cynisch van al die ellende op de wereld. En toch, soms kun je er wat aan doen. Brieven van Amnesty International zorgen ervoor dat gewetensgevangenen vrij komen. Jij kan ook van die brieven schrijven. Op 7 december tijdens het Writer’s block festival in De Haagse Hogeschool. En je bent niet de enige: bekende Haagse acteurs, politici en journalisten schrijven met je mee.</p>
+					</article>
+				</section>
+				<section class="nieuwsblok">
+					<h1>11-02-2019</h1>
+					<article>
+						<h2>Academic success and what we can learn from primary schools</h2>
+						<p>‘At the start of the academic year, I can immediately tell which students will pass my course and which ones won’t,’ claimed a lecturer last week during one of my meetings with 100 lecturers.</p>
+					</article>
+					<article>
+						<h2>Studenten blij met lectoraat Inclusive Education als opdrachtgever onderzoek</h2>
+						<p>Studeren doe je uiteindelijk alleen, maar ondersteuning door vrienden, familie of medestudenten vergroot het studiesucces. Voor het lectoraat Inclusive Education brachten zes studenten Toegepaste Wiskunde ondersteuningsnetwerken in kaart.</p>
+					</article>
+				</section>
+				<section class="nieuwsblok">
+					<h1>10-02-2019</h1>
+					<article>
+						<h2>Verantwoorde innovatie van zorgtechnologie</h2>
+						<p>De inzet van technologie in de zorg groeit en wordt steeds belangrijker. Welke beginselen van verantwoorde innovatie van zorgtechnologie zijn relevant?</p>
+					</article>
+					<article>
+						<h2>THUAS researching speed and agility of tennis wheelchairs</h2>
+						<p>After designing a fast, lightweight basketball wheelchair, THUAS is collaborating with Delft University of Technology on researching the movement of sport wheelchairs.</p>
+					</article>
+					<article>
+						<h2>Met een duwtje in de rug succesvol afstuderen</h2>
+						<p>“Wij zitten er, komen jullie ook?” Elke week ontvangen langstudeerders van Facility Management deze uitnodiging. Afzender is het begeleidingsprogramma FM Fellowship waar docent Cateleine de Jong sinds de start bij betrokken is.  Elke dinsdag komen studenten bij haar langs voor hulp en begeleiding. Met succes.</p>
+					</article>
+				</section>
+				<section class="nieuwsblok">
+					<h1>9-02-2019</h1>
+					<article>
+						<h2>'We zijn allemaal astronaut'</h2>
+						<p>Woensdag 15 november vertelde Andre Kuipers in een afgeladen auditorium over zijn uitstapje in de ruimte. Het bleef niet alleen bij fascinerende beelden van gewichtloosheid, zoals opdrukken zonder handen.</p>
+					</article>
+					<article>
+						<h2>Minder bekende aspecten van de VN uitgelicht</h2>
+						<p>In de komende drie jaar zal de nieuw benoemde lector Alanna O’Malley een onderzoeksgroep oprichten en leiden, namelijk UN Studies: Peace and Justice.</p>
+					</article>
+				</section>
+				<section class="nieuwsblok">
+					<h1>8-02-2019</h1>
+					<article>
+						<h2>How ICT-proficient is THUAS?</h2>
+						<p>This week is Video in Education Week. What better time to talk about how THUAS is faring when it comes to ICT in education? In a nutshell, the vanguard is hard at work, but the development is slow to get off the ground.</p>
+					</article>
+					<article>
+						<h2>Nederland koploper open access</h2>
+						<p>Steeds meer wetenschappelijke publicaties van Nederlanders zijn in ‘open access’ beschikbaar, maar er moet nog veel gebeuren om de doelstelling van 100 procent in 2020 te halen. Dat concludeert het Rathenau Instituut in een rapport.</p>
+					</article>
+				</section>
+				<a href="#" id="leesmeer">Lees meer</a><!--als de gebruiker op deze link klikt krijgt hij meer nieuws artikelen te zien van latere data te zien verder is het de bedoeling dat de link in het midden komt te staan-->
+			</main>
+		<footer>
+			<article id="disclaimer"> <!--als de gebruiker hier op klikt wordt hij verwezen naar de disclaimer pagina -->
+				<h1>Disclaimer</h1>
+				<p>De informatie op de websites van De Haagse Hogeschool is met de grootst mogelijke zorg samengesteld. Ook is getracht de informatie actueel te houden. Desondanks kunnen aan de informatie geen rechten worden ontleend.</p>
+			</article>
+			<article id="partnerlinkjes"> <!--hier staan linkjes naar de websites van de partners van het centre of expertise-->
+				<h1>Partners</h1>
+				<p>
+					<a href="https://www.ggdhaaglanden.nl/home.htm">GGD Haaglanden</a>
+					<br/>
+					<a href="https://www.thehagueuniversity.com/">De Haagse Hogeschool</a>
+					<br/>
+					<a href="http://www.regieorgaan-sia.nl/">Regieorgaan SIA</a>
+					<br/>
+					<a href="http://ir.geron.com/investor-overview">Geron</a>
+					<br/>
+					<a href="https://www.ypsilon.org/">Ypsilon</a>
+				</p>
+			</article>
+			<article id="contactgegevens"> <!--hier staan een paar contact gegevens van het centre of expertise-->
+				<h1>Contact</h1>
+				<p>Johanna Westerdijkplein 75<br/>
+				2521 EN Den Haag<br/>
+				+31 (0)70 - 445 88 88</p>
+			</article>
+			<section>
+				<form id="socialmediafeedfooter"> <!--hier staan de knoppen voor sociale media de knoppen staan rechts onderin de footer onder de contact gegevens de afbeeldingen voor de knoppen staan in images/icons/...-->
+					<button id="linkedin"></button>
+					<button id="facebook"></button>
+					<button id="instagram"></button>
+					<button id="twitter"></button>
+					<button id="youtube"></button>
+					<button id="pinterest"></button>
+				</form>
+			</section>
+		</footer>
+		</div>
+	</body>
+</html>

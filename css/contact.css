@@ -1,0 +1,20 @@
+aside{
+	float: right;
+}/*moet naast de introtekst komen te staan*/
+aside>ul>li>h2{
+	margin-bottom: -15px;
+}
+ul{
+	list-style: none;
+	/*margin-left: 50px; wacht de icoontjes nog heel even af ik weet niet hoeveel ruimte die 
+	in zullen nemen*/
+}
+#introtekstcontactpagina{
+	width: 455px;
+	height: 100px;
+	display: inline-block;
+}
+#fotoscontactpagina{
+	margin: 50px;
+}
+/*het 'lees meer'linkje moet onderaan in het midden, onder de lijst met lectoraten, in de aside staan.

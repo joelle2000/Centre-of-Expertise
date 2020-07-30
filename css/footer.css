@@ -1,0 +1,25 @@
+footer{
+	height: 260px;
+	display: flex;
+	background-color: #d9d9d9;
+	clear: right;
+}
+/* de body is 90% en er zijn 3 blokken tekst in de footer dus 90/3 = 30% */
+footer>article{
+	width: 30%;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+footer>article>h1{
+	font-family: Century Gothic;
+	font-size: 18pt;
+	font-weight: normal;
+}
+footer>article>p>a{
+	line-height: 1.9em;
+}
+#partnerlinkjes{
+	padding-left:70px;
+}
+
+/* de knoppen voor de social media moeten nog rechts onderin de foorter worden neergezet onder de contactgegevens*/

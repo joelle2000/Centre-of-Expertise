@@ -1,0 +1,22 @@
+aside{
+	background-color: #d9d9d9;
+	float: left;
+	width: 250px;
+	margin: -57px;
+	padding-left: 50px;
+}/*het is de bedoeling dat er niks dat niet in de aside in de html staat in de aside komt te staan want de zoekbalk staat 
+er nu wel voor de helft in*/
+aside>form>input{
+	display: block;
+}/*het is de bedoeling dat de checkboxes naast het jaar komen te staan waarbij de cheboxes dan links staan en de jaartallen 
+rechts*/
+article{
+	width: 750px;
+	display: grid;
+	margin-left: 250px;
+
+}
+article>h1{
+	margin-bottom: -15px;
+}
+/*verder moet de zoekbalk in het midden komen te staan boven alle publicatie omschrijvingen en titels*/

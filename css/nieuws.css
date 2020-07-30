@@ -1,0 +1,29 @@
+#introductietekstnieuwspagina{
+	width: 455px;
+	height: 115px;
+	margin-bottom: 300px;
+	margin-right: 0px;
+}
+ol{
+	list-style-type: none;
+	display: block;
+}/*het is de bedoeling dat de data waarop de gebruiker kan zoeken naast elkaar staan zonder numering*/
+li{
+	display: inline;
+	margin-right: 10px;
+
+}
+/*er moet naast de data waarop de gebruiker kan zoeken nog een pijltje komen te zijn waar de gebruiker op kan klikken om naar 
+vroegere data te gaan zie hiervoor images/icons/pijltje.ai hier moet nog een jpg van gemaakt worden*/
+.nieuwsblok{
+	display: inline-grid;
+}/*de nieuwsblokken moeten naast elkaar staan en op dezelfde hoogte beginnen vandaar de inline-grid*/
+section{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 320px;
+}
+#nieuwszoekenopdag{
+	width: 400px;
+}
+/*verder is het nog de bedoeling dat het nieuws van vandaag naast de introductie tekst helemaal rechts komt te staan*/

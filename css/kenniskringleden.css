@@ -1,0 +1,18 @@
+ul{
+	list-style-type: none;
+}
+li{
+	display: inline-grid;
+	width: 180px;
+	margin-left: -40px;
+	margin-right: 90px;
+}
+h1{
+	margin-top: 80px;
+	margin-bottom: -20px;
+}
+h2{
+	margin-bottom: -15px;
+}
+/*bij sommige kenniskringleden moet nog een knop komen naar linkedin hoe de knop er uit moet komen te zien is te vinden 
+in de bestanden images/icons/linkedin_normal.jpg, images/icons/linkedin_hover.jpg en images/icons/linkedin_active.jpg*/

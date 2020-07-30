@@ -1,0 +1,23 @@
+aside{
+	float: right;
+	clear: top;
+	width: 320px;
+	height: 220px;
+	margin-top: -20px;
+}/*deze aside moet kleiner, het liefst net zoals een appart veld waar de gebruiker in kan scrollen om snel door 
+alle artikele heen te gaan net zoals in de interactieve mockup:"uiteindelijke website visueel uitgewerkt met 
+een grotere focus op mijn doelgroep"*/
+#introductietekst{
+	width: 455px;
+	height: 115px;
+	margin-bottom: 700px;
+	margin-right: 0px;
+}
+.onderzoeksprogramma{
+	width: 405px;
+	clear: none;
+}/*de lijst links onderaan de pagina over de lectoraten moet ipv bullets dashes hebben*/
+#partners{
+	width: 405px;
+	float: right;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/publicaties.css">
+		<link rel="stylesheet" type="text/css" href="css/achtergrond.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/knoppen.css">
+		<link rel="stylesheet" type="text/css" href="css/typografie.css">
+		<!--er is gebruik gemaakt van meerdere stylesheets, zodat vaste onderdelen van de website in geordend staan in verschillende stylesheets ook heeft iedere pagina nog een eigen stylesheet voor als er onderdelen afwijken van de standaard flow-->
+		<title>Publicaties</title> <!--ik heb alle webpagina's vernoemd aar de tekst die op de knop staat waar de gebruiker op moet klikken als zij naar die pagina willen-->
+	</head>
+	<body>
+		<div class="contentachtergrond"><!--de class contentachtergrond is toegevoegd zodat de achtergrond waar binnen alle informatie zich bevind wit is-->
+			<header> <!--in de header staat links boven de knop "login" waar als je erop klikt je naar de loginpagina wordt gestuurd, midden bovenin staat de escape hatch "Centre of Expertise" in dikgedrukte h1 tekst, rechts bovenin staat een zoekbalkje zodat gebruikers over de gehele website kunnen zoeken en midden onderin staat de menubalk-->
+				<form>
+					<button id="login">Log in</button> <!-- het is de bedoeling dat als de gebruiker op de knop klikt hij naar de login pagina wordt verwezen waar hij zich kan inloggen of registreren de knop werkt nu alleen nog niet en dat is wel de bedoeling-->
+					<button id="escapehatch">Centre of Expertise</button>
+					<label for="zoekbalk"></label> <!--voor de zoekbalk staat geen tekst het is de bedoeling dat er rechts in de zoekbalk een icoontje van een vergrootglas staat-->
+					<input type="text" name="zoekbalk" id="zoekbalk" placeholder="zoeken">
+				</form>
+				 <nav> <!--het is de bedoeling dat de knoppen in de nav wat ruimte om zich heen krijgen net zoals in de interactieve mockup zie:"uiteindelijke website visueel uitegewerkt met een grotere focus op mijn doelgroep"-->
+				 	<a href="index.html" class="menubalk">Thuis</a>
+				 	<a href="nieuws.html" class="menubalk">Nieuws</a>
+				 	<a href="kenniskringleden.html" class="menubalk">Kenniskringleden</a>
+				 	<a href="publicaties.html" class="menubalk">Publicaties</a>
+				 	<a href="contact.html" class="menubalk">Contact</a>
+				 </nav>
+			</header>
+			<main>
+				<aside id="filters"> <!--in deze aside kunnen de publicaties gefilterd worden op het jaar waarin het gepubliceerd is. het is hierbij de bedoeling dat de checkbox links staat en het jaar rechts ook moet er niks anders binnen de aside kunnen staan-->
+					<h1>Filter op jaar van publicatie</h1>
+					<form>
+						<label for="2019">2019</label>
+						<input type="checkbox" name="publicatiefilter" id="2019" value="2019">
+						<label for="2018">2018</label>
+						<input type="checkbox" name="publicatiefilter" id="2018" value="2018">
+						<label for="2017">2017</label>
+						<input type="checkbox" name="publicatiefilter" id="2017" value="2017">
+						<label for="2016">2016</label>
+						<input type="checkbox" name="publicatiefilter" id="2016" value="2016">
+						<label for="2015">2015</label>
+						<input type="checkbox" name="publicatiefilter" id="2015" value="2015">
+						<label for="2014">2014</label>
+						<input type="checkbox" name="publicatiefilter" id="2014" value="2014">
+						<label for="2013">2013</label>
+						<input type="checkbox" name="publicatiefilter" id="2013" value="2013">
+						<label for="2012">2012</label>
+						<input type="checkbox" name="publicatiefilter" id="2012" value="2012">
+						<label for="2011">2011</label>
+						<input type="checkbox" name="publicatiefilter" id="2011" value="2011">
+						<label for="2010">2010</label>
+						<input type="checkbox" name="publicatiefilter" id="2010" value="2010">
+					</form>
+				</aside>
+				<form>
+					<label for="zoekbalkpublicatie"></label><!--voor de zoekbalk staat geen tekst het is de bedoeling dat er rechts in de zoekbalk een icoontje van een vergrootglas staat ook is het de bedoeling dat de zoekbalk in het midden staat boven alle artikelen. de gebruiker moet de zoekbalk kunnen gebruiken om publicaties te kunnen zoeken op keywords, publiceerder en publicatie datum-->
+					<input type="text" name="zoekbalk" id="zoekbalkpublicatie" placeholder="Zoeken">
+					<button id="publicatietoevoegen">Publicatie toevoegen</button><!--deze knop verwijst de gebruiker naar een ander scherm waar hij een publicatie kan toevoegen. het is de bedoeling dat deze knop rechts staat-->
+				</form>
+				<section> <!--hier staan de articles in deze articles staan de begin zinnen van de omschrijving van een publicatie en de titel van de publicatie er moet op de articles geklikt kunnen worden om naar de pagina te gaan waar de volledige publicatie staat of het bestand van de publicatie gedownload kan worden-->
+					<article>
+						<h1>The Challenges of Urban Ageing: Making Cities Age-Friendly in Europe</h1>
+						<p>Urban ageing is an emerging domain that deals with the population of older people living in cities. The ageing of society is a positive yet challenging phenomenon, as population ageing and urbanisation are the culmination of successful human development. </p>
+					</article>
+					<article>
+						<h1>Urban ageing</h1>
+						<p>One of the great achievements of modern society is the ever-increasing life expectancy of the World population. People do not only live longer, they also do so in better health than before. The ageing of society is a positive yet challenging phenomenon.</p>
+					</article>
+					<article>
+						<h1>The effect of a school-centered multicomponent intervention on daily physical activity and sedentary behavior in primary school children: the Active Living study</h1>
+						<p>The aim of the current study was to examine the effectiveness of a school-centered multicomponent PA intervention, called 'Active Living', on children's daily PA levels. A quasi-experimental design was used including 9 intervention schools and 9 matched control schools located in the Netherlands.</p>
+					</article>
+					<article>
+						<h1>Children's route choice during active transportation to school: difference between shortest and actual route</h1>
+						<p>The purpose of this study is to increase our understanding of environmental correlates that are associated with route choice during active transportation to school (ATS) by comparing characteristics of actual walking and cycling routes between home and school with the shortest possible route to school.</p>
+					</article>
+					<article>
+						<h1>Validity of an Athletic Skills Track among 6- to 12-year old children</h1>
+						<p>The purpose of this study was to examine the feasibility and validity of an Athletic Skills Track (AST) to assess fundamental movement skills among 6- to 12-year-old children in a physical education setting.</p>
+					</article>
+					<article>
+						<h1>Active Living: development and quasi-experimental evaluation of a school-centered physical activity intervention for primary school children</h1>
+						<p>The worldwide increase in the rates of childhood overweight and physical inactivity requires successful prevention and intervention programs for children. The aim of the Active Living project is to increase physical activity and decrease sedentary behavior of Dutch primary school children by developing and implementing tailored, multicomponent interventions at and around schools.</p>
+					</article>
+					<article>
+						<h1>Natural and built environmental exposures on children's active school travel: A Dutch global positioning system-based cross-sectional study</h1>
+						<p>Physical inactivity among children is on the rise. Active transport to school (ATS), namely walking and cycling there, adds to children's activity level. Little is known about how exposures along actual routes influence children's transport behavior. This study examined how natural and built environments influence mode choice among Dutch children aged 6–11 years. 623 school trips were tracked with global positioning system.</p>
+					</article>
+					<article>
+						<h1>Proceedings of the Ninth International Conference on Tangible, Embedded, and Embodied Interaction</h1>
+						<p>This paper describes explorations into related technology and research regarding the application of interactive video projection within physical education and the gym of the future. We discuss the application of exergaming in physical education, spatial augmented reality as a technology and participatory design with teachers and children as a design method to develop new concepts.</p>
+					</article>
+					<article>
+						<h1>Longitudinal association of neighborhood variables with Body Mass Index in Dutch school-age children: The KOALA Birth Cohort Study.</h1>
+						<p>Changes in the neighborhood environment may explain part of the rapid increase in childhood overweight and obesity during the last decades. To date few theory-driven rather than data-driven studies have explored longitudinal associations between multiple neighborhood characteristics and child body weight development.</p>
+					</article>
+					<article>
+						<h1>Physical Activity in Non-Frail and Frail Older Adults</h1>
+						<p>Physical activity (PA) is important for healthy ageing. Better insight into objectively measured PA levels in older adults is needed, since most previous studies employed self-report measures for PA assessment, which are associated with overestimation of PA.</p>
+					</article>
+					<article>
+						<h1>Parental Active Transportation Routines (PATRns) as a Moderator of the Association Between Neighborhood Characteristics and Parental Influences and Active School Transportation</h1>
+						<p>Successful implementation of interventions to stimulate active school transportation (AST) requires better understanding of this behavior. This study explored the associations between Parental Active Transportation Routines (PATRns) and children’s AST use, as well as the role of PATRns as a moderator of the association between the neighborhood characteristics and parental influences and AST. </p>
+					</article>
+					<article>
+						<h1>Moderators of the longitudinal relationship between the perceived physical environment and outside play in children: the KOALA birth cohort study</h1>
+						<p>Promoting unstructured outside play is a promising vehicle to increase children’s physical activity (PA). This study investigates if factors of the social environment moderate the relationship between the perceived physical environment and outside play.</p>
+					</article>
+					<article>
+						<h1>The value of (pre)school playgrounds for children’s physical activity level: a systematic review</h1>
+						<p>The (pre)school environment is an important setting to improve children’s health. Especially, the (pre)school playground provides a major opportunity to intervene. This review presents an overview of the existing evidence on the value of both school and preschool playgrounds on children’s health in terms of physical activity, cognitive and social outcomes.</p>
+					</article>
+					<article>
+						<h1>Active transport between home and school assessed with GPS: a cross-sectional study among Dutch elementary school children</h1>
+						<p>Active transport to school is associated with higher levels of physical activity in children. Promotion of active transport has therefore gained attention as a potential target to increase children’s physical activity levels. Recent studies have recognized that the distance between home and school is an important predictor for active travel among children.</p>
+					</article>
+				</section>
+				<a href="#">Lees meer</a><!--er moet op deze link geklikt kunnen worden als de gebruiker meer publicaties wilt laden ook is het de bedoeling dat de link in het midden onder de artikelen staat-->
+			</main>
+			<footer>
+				<article id="disclaimer"> <!--als de gebruiker hier op klikt wordt hij verwezen naar de disclaimer pagina -->
+					<h1>Disclaimer</h1>
+					<p>De informatie op de websites van De Haagse Hogeschool is met de grootst mogelijke zorg samengesteld. Ook is getracht de informatie actueel te houden. Desondanks kunnen aan de informatie geen rechten worden ontleend.</p>
+				</article>
+				<article id="partnerlinkjes"> <!--hier staan linkjes naar de websites van de partners van het centre of expertise-->
+					<h1>Partners</h1>
+					<p>
+						<a href="https://www.ggdhaaglanden.nl/home.htm">GGD Haaglanden</a>
+						<br/>
+						<a href="https://www.thehagueuniversity.com/">De Haagse Hogeschool</a>
+						<br/>
+						<a href="http://www.regieorgaan-sia.nl/">Regieorgaan SIA</a>
+						<br/>
+						<a href="http://ir.geron.com/investor-overview">Geron</a>
+						<br/>
+						<a href="https://www.ypsilon.org/">Ypsilon</a>
+					</p>
+				</article>
+				<article id="contactgegevens"> <!--hier staan een paar contact gegevens van het centre of expertise-->
+					<h1>Contact</h1>
+					<p>Johanna Westerdijkplein 75<br/>
+					2521 EN Den Haag<br/>
+					+31 (0)70 - 445 88 88</p>
+				</article>
+				<section>
+					<form id="socialmediafeedfooter"> <!--hier staan de knoppen voor sociale media de knoppen staan rechts onderin de footer onder de contact gegevens de afbeeldingen voor de knoppen staan in images/icons/...-->
+						<button id="linkedin"></button>
+						<button id="facebook"></button>
+						<button id="instagram"></button>
+						<button id="twitter"></button>
+						<button id="youtube"></button>
+						<button id="pinterest"></button>
+					</form>
+				</section>
+			</footer>
+		</div>
+	</body>
+</html>

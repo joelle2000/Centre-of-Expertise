@@ -1,0 +1,19 @@
+/*hier staat de typografie van de website*/
+body{
+	font-family: Lucida Sans;
+	font-size: 12pt;
+}
+h1{
+	font-family: Century Gothic;
+	font-size: 21pt;
+	font-weight: normal;
+}
+h2{
+	font-family: Century Gothic;
+	font-size: 18pt;
+	font-weight: normal;
+}
+label{
+	font-family: Lucida Sans; 
+	font-size: 14pt;
+}

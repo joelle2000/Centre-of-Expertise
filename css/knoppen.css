@@ -1,0 +1,63 @@
+a{
+	color: #00CC00;
+	font: Lucida Sans, 14pt;
+}
+a:hover{
+	color: #008400;
+}
+a:active{
+	color: #00FF00;
+}
+#escapehatch{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Century Gothic;
+	font-size: 30pt;
+	font-weight: bold;
+	width: 400px;
+	height: 45px;
+	display: inline-block;
+}
+#login{
+	display: inline-block;
+}
+button{
+	background-color: #00CC00;
+	color: #FFFFFF;
+	font-family: Lucida Sans;
+	font-size: 16pt;
+	border-radius: 5px;
+	border: none;
+}/*sommige buttons verschillen nog in grote het is de bedoeling dat gelijk soortige buttons even groot zijn bijv: terug knoppen 
+of knoppen voor het invoegen van bestanden*/
+button:hover{
+	background-color: #00AE00;
+}
+button:active{
+	background-color: #00FF00;
+}
+.menubalk{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: Lucida Sans;
+	font-size: 14pt;
+	text-decoration: none;
+}
+.menubalk:hover{
+	background-color: #FFFFFF;
+	color: #00CC00;
+	text-decoration: underline;
+}
+.menubalk:active{
+	background-color: #FFFFFF;
+	color: #00CC00;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.linkedin{
+	background-image:url("images/icons/linkedin_normal.jpg");
+	background-repeat: no-repeat;
+	width: 30px;
+	height: 30px;
+} /*hoe de knop er uit moet komen te zien is te vinden in de bestanden images/icons/linkedin_normal.jpg, 
+images/icons/linkedin_hover.jpg en images/icons/linkedin_active.jpg*/

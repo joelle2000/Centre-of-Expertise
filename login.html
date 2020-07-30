@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="nl">
+	<head>
+		<title>Login</title> <!--ik heb alle webpagina's vernoemd aar de tekst die op de knop staat waar de gebruiker op moet klikken als zij naar die pagina willen-->
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<link rel="stylesheet" type="text/css" href="css/achtergrond.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/footer.css">
+		<link rel="stylesheet" type="text/css" href="css/knoppen.css">
+		<link rel="stylesheet" type="text/css" href="css/typografie.css">
+		<!--er is gebruik gemaakt van meerdere stylesheets, zodat vaste onderdelen van de website in geordend staan in verschillende stylesheets ook heeft iedere pagina nog een eigen stylesheet voor als er onderdelen afwijken van de standaard flow-->
+	</head>
+	<body>
+		<div class="contentachtergrond"><!--de class contentachtergrond is toegevoegd zodat de achtergrond waar binnen alle informatie zich bevind wit is-->
+			<header> <!--in de header staat links boven de knop "login" waar als je erop klikt je naar de loginpagina wordt gestuurd, midden bovenin staat de escape hatch "Centre of Expertise" in dikgedrukte h1 tekst, rechts bovenin staat een zoekbalkje zodat gebruikers over de gehele website kunnen zoeken en midden onderin staat de menubalk-->
+				<form>
+					<button id="login">Log in</button> <!-- (dit is de login pagina) het is de bedoeling dat als de gebruiker op de knop klikt hij naar de login pagina wordt verwezen waar hij zich kan inloggen of registreren de knop werkt nu alleen nog niet en dat is wel de bedoeling-->
+					<button id="escapehatch">Centre of Expertise</button>
+					<label for="zoekbalk"></label> <!--voor de zoekbalk staat geen tekst het is de bedoeling dat er rechts in de zoekbalk een icoontje van een vergrootglas staat-->
+					<input type="text" name="zoekbalk" id="zoekbalk" placeholder="zoeken">
+				</form>
+				 <nav> <!--het is de bedoeling dat de knoppen in de nav wat ruimte om zich heen krijgen net zoals in de interactieve mockup zie:"uiteindelijke website visueel uitegewerkt met een grotere focus op mijn doelgroep"-->
+				 	<a href="index.html" class="menubalk">Thuis</a>
+				 	<a href="nieuws.html" class="menubalk">Nieuws</a>
+				 	<a href="kenniskringleden.html" class="menubalk">Kenniskringleden</a>
+				 	<a href="publicaties.html" class="menubalk">Publicaties</a>
+				 	<a href="contact.html" class="menubalk">Contact</a>
+				 </nav>
+			</header>
+			<main>
+				<form>
+					<button id="terug">Terug</button> <!--met deze knop gaat de gebruiker terug naar de pagina waar hij was toen hij op de "Login" knop klikte-->
+				</form>
+				<form method="post" id="inloggenenregistreren"> <!--de inlog en registratie gegevens vind ik gevoelige informatie dus die wordt verzonden via de post method verder is het de bedoeling dat het formulier gecentreerd wordt metd e labels links en de input rechts en dat het dan een left right balance heeft-->
+					<fieldset id="fieldsetlogin">
+						<legend>Login</legend>
+						<label for="emaillogin">E-mailadres:</label>
+						<input type="email" name="emaillogin" id="emaillogin"><br/>
+						<label for="wachtwoordlogin">Wachtwoord:</label>
+						<input type="password" name="wachtwoordinloggen" id="wachtwoordlogin"><br/>
+						<button id="loginknop">Login</button> <!--brengt de gebruiker terug naar de pagina waar hij was toen hij op de "Login" knop klikte-->
+					</fieldset>
+					<h1>Of</h1>
+					<fieldset id="fieldsetregistreer">
+						<legend>Registreer</legend>
+						<label for="voornaamregistreer">Voornaam:</label>
+						<input type="text" name="voornaamregistreer" id="voornaamregistreer"><br/>
+						<label for="tussenvoegselregistreer">Tussenvoegsel:</label>
+						<input type="text" name="tussenvoegselregistreer" id="tussenvoegselregistreer"><br/>
+						<label for="achternaamregistreer">Achternaam:</label>
+						<input type="text" name="achternaamregistreer" id="achternaamregistreer"><br/>
+						<label for="emailregistreer">E-mailadres:</label>
+						<input type="email" name="emailregistreer" id="emailregistreer"><br/>
+						<label for="bevestigemail">Bevestig E-mailadres:</label>
+						<input type="email" name="bevestigemail" id="bevestigemail"><br/>
+						<label for="wachtwoordregistreer">Wachtwoord:</label>
+						<input type="password" name="wachtwoordregistreer" id="wachtwoordregistreer"><br/>
+						<label for="bevestigwachtwoord">Bevestig wachtwoord:</label>
+						<input type="password" name="bevestigwachtwoord" id="bevestigwachtwoord"><br/>
+						<button id="registreerknop">Registreer</button> <!--brengt de gebruiker terug naar de pagina waar hij was toen hij op de "Login" knop klikte-->
+					</fieldset>
+					<!--deze pagina heeft geen footer-->
+				</form>
+			</main>
+		</div>
+	</body>
+</html>
